@@ -10,9 +10,11 @@
     <!-- https://github.com/mrdoob/stats.js -->
     <script src="vendor/three.js/examples/js/libs/stats.min.js"></script>
 
-    <script src="vendor/threex/THREEx.screenshot.js"></script>
-    <script src="vendor/threex/THREEx.FullScreen.js"></script>
-    <script src="vendor/threex/THREEx.WindowResize.js"></script>
+    <script src="vendor/threex/tmp/threex-v0/threex.domevent.js"></script>
+    <script src="vendor/threex/tmp/threex-v0/threex.domevent.object3d.js"></script>
+    <script src="vendor/threex.bak/THREEx.screenshot.js"></script>
+    <script src="vendor/threex.bak/THREEx.FullScreen.js"></script>
+    <script src="vendor/threex.bak/THREEx.WindowResize.js"></script>
     <!-- <script src="vendor/threex.dragpancontrols.js"></script> -->
     <script src="vendor/three.js/examples/js/controls/TrackballControls.js"></script>
 
@@ -89,7 +91,7 @@
 
       cameraControls.keys = [ 65, 83, 68 ];
 
-            //cameraControls.addEventListener( 'change', render );
+      //cameraControls.addEventListener( 'change', render );
       // transparently support window resize
       THREEx.WindowResize.bind(renderer, camera);
       // allow 'p' to make screenshot
@@ -102,6 +104,7 @@
 
       // here you add your objects
       // - you will most likely replace this part by your own
+      THREE.Object3D._threexDomEvent.camera(camera);
       var geometry  = new THREE.TorusGeometry( 1, 0.42 );
       var material  = new THREE.MeshBasicMaterial({color: 0x18CAE6, opacity: 0.7 , transparent: true, wireframe: false});
       //var mesh  = new THREE.Mesh( geometry, material );
@@ -111,18 +114,68 @@
       //genes try
       var baseGeom = new THREE.CubeGeometry(1, 1, 1)
       var base1 = new THREE.Mesh(baseGeom, material);
-      var base2 = new THREE.Mesh(new THREE.CubeGeometry(0.5, 0.5, 0.5), material);
-      var base3 = new THREE.Mesh(baseGeom, material);
+      var base2 = new THREE.Mesh(new THREE.CubeGeometry(1, 0.5, 1), material);
+      var base3 = new THREE.Mesh(new THREE.CubeGeometry(1, 0.5, 1), material);
       var base4 = new THREE.Mesh(baseGeom, material);
+      var base5 = new THREE.Mesh(baseGeom, material);
+      var base6 = new THREE.Mesh(baseGeom, material);
+      var xPos
+      var mouseUp
+      base1.on('mousedown', function(){
+        base1.material.color.setHex(0xffffff)
+        mouseUp = false
+        cameraControls.noRotate = true
+      });
+      base1.on('mouseup', function(){
+          mouseUp = true
+          xPos = null
+          base1.material.color.setHex(0x18CAE6)
+          cameraControls.noRotate = false
+      });
+      document.onmousemove = function(event) {
+        if (mouseUp === false) {
+          var elem = renderer.domElement, 
+          boundingRect = elem.getBoundingClientRect(),
+          x = (event.clientX - boundingRect.left) * (elem.width / boundingRect.width),
+          y = (event.clientY - boundingRect.top) * (elem.height / boundingRect.height);
+
+    var vector = new THREE.Vector3( 
+        ( x / window.innerWidth ) * 2 - 1, 
+        - ( y / window.innerHeight ) * 2 + 1, 
+        0.5 
+    );
+    var projector = new THREE.Projector()
+    console.log(vector.x)
+    projector.unprojectVector( vector, camera );
+    console.log(vector.x)
+    if (base1.position.x + vector.x > 0) {
+      base1.scale.x += 0.1
+    } else {
+      base1.scale.x -= 0.1
+    }
+        }
+      }
+      var cube = new THREE.BoxHelper();
+      cube.material.color.setHex(0x18CAE6);
+      cube.scale.set(0.5, 0.5, 0.5);
+      cube.position.x = -3
+      scene.add( cube );
       scene.add(base1)
       scene.add(base2)
       scene.add(base3)
       scene.add(base4)
+      scene.add(base5)
+      scene.add(base6)
       base1.position.x = 0
       base2.position.x = 1
       base3.position.x = 2
       base4.position.x = 3
-var canvas = document.createElement('canvas');
+      base5.position.x = 4
+      base6.position.x = 5
+
+
+function addLetter(l, pos) {
+  var canvas = document.createElement('canvas');
 var size = 256; // CHANGED
 canvas.width = size;
 canvas.height = size;
@@ -130,12 +183,11 @@ var context = canvas.getContext('2d');
 context.fillStyle = '#DF740C'; // CHANGED
 context.textAlign = 'center';
 context.font = '72px Helvetica';
-context.fillText("A", size / 2, size / 2);
-
-var amap = new THREE.Texture(canvas);
-amap.needsUpdate = true;
-
-var mat = new THREE.SpriteMaterial({
+  context.clearRect(0,0,canvas.width,canvas.height);
+  context.fillText(l, size / 2, size / 2);
+  var amap = new THREE.Texture(canvas);
+  amap.needsUpdate = true;
+  var mat = new THREE.SpriteMaterial({
     map: amap,
     transparent: false,
     useScreenCoordinates: false,
@@ -143,8 +195,34 @@ var mat = new THREE.SpriteMaterial({
 });
 
 var sp = new THREE.Sprite(mat);
-sp.scale.set( 1, 1, 1 ); // CHANGED
-scene2.add(sp); 
+sp.scale.set( 2, 2, 2 ); // CHANGED
+sp.position.y = -0.2
+sp.position.x = pos
+scene2.add(sp);
+}
+
+addLetter('A', 0)
+addLetter('C', 1)
+addLetter('G', 2)
+addLetter('T', 3)
+addLetter('C', 4)
+addLetter('G', 5)
+
+//context.fillText("A", size / 2, size / 2);
+
+// var amap = new THREE.Texture(canvas);
+// amap.needsUpdate = true;
+
+// var mat = new THREE.SpriteMaterial({
+//     map: amap,
+//     transparent: false,
+//     useScreenCoordinates: false,
+//     color: 0xffffff // CHANGED
+// });
+
+// var sp = new THREE.Sprite(mat);
+// sp.scale.set( 1, 1, 1 ); // CHANGED
+// scene2.add(sp); 
 
 
 //  var canvas = document.createElement('canvas');

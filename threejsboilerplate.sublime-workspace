@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"SRA000271"
+			],
+			[
+				"du",
+				"duplicate"
+			],
+			[
+				"n",
+				"null"
+			],
+			[
+				"be",
+				"besthit_besthsp_evalue"
+			],
+			[
+				"w",
+				"wrongDedup"
+			],
+			[
+				"final",
+				"finalunigene"
+			],
+			[
+				"bett",
+				"better"
+			],
+			[
+				"re",
+				"reads_mic"
+			],
+			[
+				"rea",
+				"reads_ctl"
+			],
+			[
+				"best",
+				"besthit_besthsp_score"
+			],
+			[
+				"uni",
+				"unigene"
+			],
+			[
+				"upl",
+				"uploaded_talk"
+			],
+			[
+				"up",
+				"uploaded_poster"
+			],
+			[
+				"in",
+				"institution"
+			],
+			[
+				"ema",
+				"emailsLowerCased"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"or",
+				"organizer"
+			],
+			[
+				"co",
+				"country"
+			],
+			[
+				"cou",
+				"countries"
+			],
+			[
+				"s",
+				"scientific_committee"
+			],
+			[
+				"pu",
+				"public_talk"
+			],
+			[
+				"p",
+				"public_talk"
+			],
+			[
+				"has",
+				"has_talk"
+			],
+			[
+				"Use",
+				"UserModel"
+			],
+			[
+				"l",
+				"lastname"
+			],
+			[
+				"_",
+				"_firstauthor"
+			],
+			[
+				"fir",
+				"firstauthor"
+			],
+			[
+				"abs",
+				"abstract"
+			],
+			[
+				"Ab",
+				"AbstractsModel"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"first",
+				"firstname"
+			],
+			[
+				"ab",
+				"abstracts"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"U",
+				"UserModel"
+			],
+			[
+				"con",
+				"console.log();"
+			],
+			[
+				"valida",
+				"validateUserDoc"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"bor",
+				"SFTP: Browse Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bmpvieira/Repos/EugeneBragin/Genoverse/bam.html",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/templates/curate.html",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/app.rb",
+		"/var/folders/ns/6vmrz0tn3l70pk8q_mtcs7_c0000gn/T/sublime-sftp-browse-1385980959/frontend1.apocrita.sftp.sublime/home/btw788/local/psmc/human/1000genomes/Makefile",
+		"/Users/bmpvieira/.config/fish/fish_history",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/.gitignore",
+		"/var/folders/ns/6vmrz0tn3l70pk8q_mtcs7_c0000gn/T/sublime-sftp-browse-1384777512/frontend1.apocrita.sftp.sublime/home/btw788/Makefile",
+		"/Users/bmpvieira/Desktop/nodemake/SRA000271.urls",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/templates/dashboard.html",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/index.js",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/bower.json",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/app.js",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/build/build.js",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/templates/_nav.html",
+		"/Users/bmpvieira/Desktop/make.js",
+		"/Users/bmpvieira/MONICALASTQMUL/OMG_FINAL_UNIGENES_AT_LAST_blast2go_20131117_2335_goslim_cellular-component_3piecharts.table.names.txt",
+		"/Users/bmpvieira/MONICALASTQMUL/OMG_FINAL_UNIGENES_AT_LAST_blast2go_20131117_2335",
+		"/Users/bmpvieira/MONICALASTQMUL/OMG_FINAL_UNIGENES_AT_LAST_blast2go_20131117_2335_goslim_cellular-component_3piecharts.table.txt",
+		"/var/folders/ns/6vmrz0tn3l70pk8q_mtcs7_c0000gn/T/sublime-sftp-browse-1384615421/sm11.apocrita.sftp.sublime/share/scratch/btw788/human/YH/Makefile",
+		"/var/folders/ns/6vmrz0tn3l70pk8q_mtcs7_c0000gn/T/sublime-sftp-browse-1384526026/sm11.apocrita.sftp.sublime/share/scratch/btw788/human/YH/Makefile",
+		"/Users/bmpvieira/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bmpvieira/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bmpvieira/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/var/folders/ns/6vmrz0tn3l70pk8q_mtcs7_c0000gn/T/sublime-sftp-browse-1384525432/sm11.apocrita.sftp.sublime/home/btw788/2013-11-15_psmc_controls_human/Makefile",
+		"/Users/bmpvieira/Downloads/2013-10-21_unigenes_duplicates-replaced-by-longer-contig.csv",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta",
+		"/Users/bmpvieira/Downloads/2013-10-21_finalunigenes.csv",
+		"/Users/bmpvieira/FINALFINA",
+		"/Users/bmpvieira/FINALCONTIGSPORRA2.txt",
+		"/Users/bmpvieira/Dropbox/Documents/blogpost_docker-for-bioinformatics.txt",
+		"/Users/bmpvieira/Downloads/2013-10-21_unigenes-removed-by-evalue-1e-6.txt",
+		"/Users/bmpvieira/queroDormirblast2go_table_20131113_0043.txt",
+		"/Users/bmpvieira/TODELETE",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/index.html",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/component.json",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/server.rb",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/www/dashboard.js",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/Rakefile",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/component.json",
+		"/Users/bmpvieira/Repos/bmpvieira/afra/env.yml",
+		"/Users/bmpvieira/Documents/Notes/diary.md",
+		"/Users/bmpvieira/Desktop/snippet.r",
+		"/Users/bmpvieira/Local/phd/frontend1.apocrita.sftp.sublime",
+		"/Users/bmpvieira/.ssh/config",
+		"/Users/bmpvieira/.bash_profile",
+		"/Users/bmpvieira/.tmux.conf",
+		"/Users/bmpvieira/Repos/dotcloud/docker/PSMC/Dockerfile",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_testingstuff_byscore_json.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_testingstuff_byscore_bylength_json.coffee",
+		"/Users/bmpvieira/Local/phd/PSMC.Dockerfile",
+		"/Users/bmpvieira/Repos/dotcloud/docker/Vagrantfile",
+		"/Users/bmpvieira/Repos/yeban/afra/README.mkd",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_length.coffee",
+		"/Users/bmpvieira/Local/phd/src/ms/msdir/readm",
+		"/Users/bmpvieira/Local/phd/src/ms/msdir/readme",
+		"/Users/bmpvieira/Local/phd/src/ms/msdir/ms.out",
+		"/Users/bmpvieira/Repos/samtools/samtools/README.md",
+		"/Users/bmpvieira/.config/fish/config.fish",
+		"/Users/bmpvieira/Repos/samtools/samtools/INSTALL",
+		"/Users/bmpvieira/Dropbox/Documents/private/ideas.md",
+		"/Users/bmpvieira/eseb2013ssl/server.crt",
+		"/Users/bmpvieira/eseb2013ssl/server.key",
+		"/Users/bmpvieira/Downloads/pwds.aes.dec",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta_X_TIGR_oakdatabase_EST.fas.db.blastn.evalue1e-2.tsv.justthehits.justthevalues",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta_X_Oakall_FagaceaeDb_EST.blastn.evalue1e-2tsv.justthehits.justthevalues",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/20.filterUnigenesLenEvalue.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/19.printWrongDedup.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_testingstuff_bylength_json.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_score_json.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/finalunigenesForDiffExpr18.3.2.csv.sorted.uniq",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.3.1.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.3.2.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.3.3.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/Documents/Notes/Tweets.txt",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.confirmUnigenesDedup_contiglength.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/wrongDedup.better",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/wrongDedup.originals",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.3.4.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta_X_Oakall_FagaceaeDb_EST.blastn.tsv.justthehits.csv.justthevalues",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.3.5.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/finalunigenesForDiffExpr18.3.5.fasta",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/finalunigenesForDiffExpr18.3.2.csv",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta_X_TIGR_oakdatabase_EST.fas.db.blastn.tsv.justthehits.justthevalues",
+		"/Users/bmpvieira/finalunigenesForDiffExpr18.3.5.fasta_X_Oakall_FagaceaeDb_EST.blastn.tsv.justthehits",
+		"/Users/bmpvieira/cmds.txt",
+		"/Users/bmpvieira/Documents/almoco_cobig",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/02-filterBlastEvalueLen.coffee",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/FINALUNIGENESRIGHTDEDUPANDEVALUE.csv",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/unigenesReplaced_original_new18.3.1.csv",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/unigenesReplaced_original_new18.3.1.csv.error",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/unigenesReplaced_original_new.csv",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/unigenesReplaced_original_new.csv.sorted.uniq",
+		"/Users/bmpvieira/Documents/Monica/FilterStreptophyta Pipeline/SCRIPTS_USED_FINAL_STREP/18.4.printUnigenesBestDedupForBlast2goFilter.coffee",
+		"/Users/bmpvieira/Downloads/CorkOak_unigenes.xlsx",
+		"/Users/bmpvieira/Documents/Notes/paper_to_download.txt",
+		"/Users/bmpvieira/crowdprocess",
+		"/Users/bmpvieira/env.vars",
+		"/Users/bmpvieira/Dropbox/documents/private/World Domination.md",
+		"/Users/bmpvieira/Downloads/blah.txt",
+		"/Users/bmpvieira/Documents/Notes/answervivia",
+		"/Users/bmpvieira/Documents/Notes/2013-09-10_linkedin_description.txt",
+		"/etc/hosts",
+		"/Users/bmpvieira/Repos/bmpvieira/heroku/eseb2013/.gitignore",
+		"/Users/bmpvieira/Documents/ESEB2013_Authorize",
+		"/Users/bmpvieira/Downloads/rld-trch2u14/reloaded.txt",
+		"/Users/bmpvieira/Documents/Notes/geeklist.hipchat.log",
+		"/Users/bmpvieira/Repos/draft",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/controllers/users-controller.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/models/user.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/models/abstracts.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/bin/mongodb/checkFailedImportToMailchimp.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/bin/mongodb/importedToMailchimpDelegatesEmails.txt",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/bin/mongodb/extractMailchimpImportEmails.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/bin/mongodb/exportDelegates.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/settings.coffee",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/countries.json",
+		"/Users/bmpvieira/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Volumes/WinUSB/wifi.txt",
+		"/Users/bmpvieira/Local/10gen/hw2 2/hw2-3/blog/users.js",
+		"/Users/bmpvieira/Local/10gen/hw2 2/hw2-3/blog/sessions.js",
+		"/Users/bmpvieira/Local/10gen/hw2 2/hw2-3/blog/routes/session.js",
+		"/Users/bmpvieira/Local/10gen/hw2 2/hw2-3/validate/validate.js",
+		"/Users/bmpvieira/Local/10gen/hw2 2/hw2-3/validate/vla",
+		"/Users/bmpvieira/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bmpvieira/config.fish",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/package.json",
+		"/Users/bmpvieira/Repos/bmpvieira/eseb2013/app/controllers/abstracts-controller.coffee",
+		"/Users/bmpvieira/.oh-my-fish/themes/agnoster/README.md"
+	],
+	"find":
+	{
+		"height": 181.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"curate",
+			"Curate",
+			"curate",
+			"curate.js",
+			"bootstrap",
+			"ftp://ftp.sra.ebi.ac.uk/",
+			"font",
+			"monica_",
+			"^(.*)",
+			",.*",
+			"\\\"",
+			"^(.*)",
+			",.*",
+			"\"",
+			"^(.*)",
+			"^\\(.*\\)",
+			"^(.*)",
+			",.*",
+			"lightsave",
+			"compon",
+			"directive",
+			"bundle",
+			"angular",
+			"angular.js",
+			"angular",
+			"dashboard",
+			"jquery-ui",
+			"jquery",
+			"path",
+			"jquery",
+			"require.",
+			"require.config",
+			"dashboard",
+			"about.less",
+			"style.css",
+			"amd",
+			"amd\n",
+			"\n",
+			"requirejs",
+			"dashboard",
+			"dashboard.less",
+			"css",
+			"www",
+			"templates",
+			"xj",
+			"xz",
+			"xzv",
+			"xz",
+			"xf",
+			"xv",
+			"biopython",
+			"/usr/bin",
+			"tracks",
+			"getAnnotTrack",
+			"features",
+			".store",
+			"store",
+			"getAnnotTrack",
+			"sublime",
+			"WebApollo",
+			"wa",
+			"done",
+			"/usr/bin",
+			"/usr/bin/",
+			"htop",
+			"auth/facebook",
+			"facebook",
+			"auth/facebo",
+			"Rf",
+			"; \\",
+			"&&",
+			"; \\",
+			"vagrant",
+			".*",
+			":",
+			"export",
+			"jqueryi",
+			"\\*",
+			"*",
+			".*,",
+			"*,",
+			"surf",
+			".*,",
+			"\\n# ",
+			"# Query: ",
+			" hits found",
+			".*\\t.*\\n",
+			"# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score\n",
+			"# Database: TIGR_oakdatabase_EST.fas.db\n",
+			"# BLASTN 2.2.28+\n",
+			".*,",
+			"\\n# ",
+			" hits found",
+			".*\\t.*\\n",
+			"# Query: ",
+			"# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score\n",
+			"# Database: Oakall_FagaceaeDb_EST.db\n",
+			"# BLASTN 2.2.28+\n",
+			".*,",
+			" hits found",
+			"\\n# ",
+			".*\\t.*\\n",
+			"# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score",
+			"# Database: TIGR_oakdatabase_EST.fas.db",
+			"# BLASTN 2.2.28+\n# Query: ",
+			" ",
+			" hits found",
+			"\\n#",
+			".*\\t.*\\n",
+			"# Query: ",
+			"# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score\n",
+			"# Database: Oakall_FagaceaeDb_EST.db\n",
+			"# BLASTN 2.2.28+\n",
+			"\n# Database: Oakall_FagaceaeDb_EST.db\n# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score\n# ",
+			"# BLASTN 2.2.28+\n# Query: ",
+			"error evalue for ",
+			"V",
+			"blast",
+			"duplicate",
+			"besthit_besthsp_score",
+			"length",
+			"chip",
+			"nano",
+			"_score",
+			"besthit_besthsp_score",
+			"maria",
+			"poster",
+			"zoom"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"monica_$1",
+			"",
+			"monica_$1",
+			"",
+			"monica_$1",
+			"monica_\\1",
+			"monica_/1",
+			"",
+			",",
+			"",
+			",",
+			"",
+			",",
+			"",
+			",",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"project": "threejsboilerplate.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wor",
+				"app/views/workshop1.jade"
+			],
+			[
+				"modelabs",
+				"app/models/abstracts.coffee"
+			],
+			[
+				"sett",
+				"app/settings.coffee"
+			],
+			[
+				"countr",
+				"app/countries.json"
+			],
+			[
+				"modelusr",
+				"app/models/user.coffee"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"abs",
+				"app/controllers/abstracts-controller.coffee"
+			],
+			[
+				"inde",
+				"app/views/index.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
