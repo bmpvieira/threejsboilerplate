@@ -123,18 +123,34 @@
 
     $(document).ready(function() {
       $.get("data", function(data) {
+        counter = 0
         data.split('\n').forEach(function(annotation_json) {
           console.log(annotation_json)
           if (annotation_json !== "") {
           var annotation = JSON.parse(annotation_json)
           console.log(annotation)
           console.log(Number(annotation.end) - Number(annotation.start))
-          var basa = new THREE.Mesh(new THREE.CubeGeometry(Number(annotation.end) - Number(annotation.start), 100, 100), material)
+          var size = (Number(annotation.end) - Number(annotation.start)) / 10
+          var xpositions = Number(annotation.start) / 10
+          var basa = new THREE.Mesh(new THREE.CubeGeometry(size, 1, 1), material)
           scene.add(basa)
-          basa.position.x = Number(annotation.start)
           basa.position.x = 0
-          basa.position.y = 0
-          camera.position.set(0, 0, 300000)
+          basa.position.z = 0
+          basa.position.z = 0
+          basa.position.y = counter * 1.5 -15
+          basa.scale.set(1, 1, 1)
+          counter++
+          console.log(counter)
+          console.log('basa')
+          console.log(basa.position)
+          //camera.position.set(0, 0, 30)
+          //camera.translateX(1, 0, 0)
+          camera.position.set(basa.position.x, basa.position.y, 3000)
+          cameraControls.target = new THREE.Vector3(basa.position.x,0,0)
+          console.log('camera')
+          console.log(camera.position)
+          //camera.translateX(Number(annotation.start), 0, 0)
+          //camera.translateX(Number(annotation.start))
           //camera.up = new THREE.Vector3(0,0,0);
           //camera.lookAt(new THREE.Vector3(0,0,1));
           console.log(basa)
@@ -393,6 +409,8 @@ addLetter('G', 5)
 
     // render the scene
     function render() {
+
+      //console.log(camera.position)
 
       // update camera controls
       cameraControls.update();
