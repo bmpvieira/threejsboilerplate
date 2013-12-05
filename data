@@ -1,0 +1,10 @@
+{"seqid":"scaffold96","source":"Cufflinks","type":"mRNA","start":"122505","end":"123761","score":"1000","strand":"+","phase":".","attributes":{"ID":"Aech_17868"}}
+{"seqid":"scaffold96","source":"Cufflinks","type":"CDS","start":"122505","end":"122573","score":"1000","strand":"+","phase":".","attributes":{"Parent":"Aech_17868"}}
+{"seqid":"scaffold96","source":"Cufflinks","type":"CDS","start":"122664","end":"123269","score":"1000","strand":"+","phase":".","attributes":{"Parent":"Aech_17868"}}
+{"seqid":"scaffold96","source":"Cufflinks","type":"CDS","start":"123336","end":"123446","score":"1000","strand":"+","phase":".","attributes":{"Parent":"Aech_17868"}}
+{"seqid":"scaffold96","source":"Cufflinks","type":"CDS","start":"123522","end":"123761","score":"1000","strand":"+","phase":".","attributes":{"Parent":"Aech_17868"}}
+{"seqid":"scaffold490","source":"Cufflinks","type":"mRNA","start":"311098","end":"324527","score":"1000","strand":"-","phase":".","attributes":{"ID":"Aech_17797"}}
+{"seqid":"scaffold490","source":"Cufflinks","type":"CDS","start":"324482","end":"324527","score":"1000","strand":"-","phase":".","attributes":{"Parent":"Aech_17797"}}
+{"seqid":"scaffold490","source":"Cufflinks","type":"CDS","start":"321763","end":"322016","score":"1000","strand":"-","phase":".","attributes":{"Parent":"Aech_17797"}}
+{"seqid":"scaffold490","source":"Cufflinks","type":"CDS","start":"315902","end":"316065","score":"1000","strand":"-","phase":".","attributes":{"Parent":"Aech_17797"}}
+{"seqid":"scaffold490","source":"Cufflinks","type":"CDS","start":"312691","end":"312826","score":"1000","strand":"-","phase":".","attributes":{"Parent":"Aech_17797"}}

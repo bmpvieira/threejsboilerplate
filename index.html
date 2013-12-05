@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
+    <script src="vendor/jquery.min.js"></script>
     <script src="vendor/three.js/build/three.js"></script>
     <script src="vendor/three.js/examples/js/Detector.js"></script>
     <!-- https://github.com/mrdoob/stats.js -->
@@ -119,6 +120,31 @@
       var base4 = new THREE.Mesh(baseGeom, material);
       var base5 = new THREE.Mesh(baseGeom, material);
       var base6 = new THREE.Mesh(baseGeom, material);
+
+    $(document).ready(function() {
+      $.get("data", function(data) {
+        data.split('\n').forEach(function(annotation_json) {
+          console.log(annotation_json)
+          if (annotation_json !== "") {
+          var annotation = JSON.parse(annotation_json)
+          console.log(annotation)
+          console.log(Number(annotation.end) - Number(annotation.start))
+          var basa = new THREE.Mesh(new THREE.CubeGeometry(Number(annotation.end) - Number(annotation.start), 100, 100), material)
+          scene.add(basa)
+          basa.position.x = Number(annotation.start)
+          basa.position.x = 0
+          basa.position.y = 0
+          camera.position.set(0, 0, 300000)
+          //camera.up = new THREE.Vector3(0,0,0);
+          //camera.lookAt(new THREE.Vector3(0,0,1));
+          console.log(basa)
+        }
+        })
+      });
+    })
+
+
+
       var xPos
       var mouseUp
       base1.on('mousedown', function(){
@@ -172,6 +198,7 @@
       base4.position.x = 3
       base5.position.x = 4
       base6.position.x = 5
+
 
 
 function addLetter(l, pos) {
@@ -377,6 +404,9 @@ renderer.clear( false, true, false );
 renderer.render( scene, camera );
 
     }
+
+
+
   </script>
 </body>
 </html>
