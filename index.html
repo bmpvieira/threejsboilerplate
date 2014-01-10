@@ -214,6 +214,45 @@
       base4.position.x = 3
       base5.position.x = 4
       base6.position.x = 5
+      // console.log('my faces')
+      // console.dir(cube)
+
+      var exon_geometry = new THREE.Geometry();
+
+      exon_geometry.vertices.push( new THREE.Vector3( -10,  10, 0 ) );
+      exon_geometry.vertices.push( new THREE.Vector3( -10, -10, 0 ) );
+      exon_geometry.vertices.push( new THREE.Vector3(  10, -10, 0 ) );
+      exon_geometry.vertices.push( new THREE.Vector3( 10,  10, 0 ) );
+
+      exon_geometry.vertices.push( new THREE.Vector3( -10,  10, -10 ) );
+      exon_geometry.vertices.push( new THREE.Vector3( -10, -10, -10 ) );
+      exon_geometry.vertices.push( new THREE.Vector3(  10, -10, -10 ) );
+      exon_geometry.vertices.push( new THREE.Vector3( 10,  10, -10 ) );
+
+
+      exon_geometry.faces.push( new THREE.Face3( 0, 1, 2 ) );
+      exon_geometry.faces.push( new THREE.Face3( 0, 2, 3 ) );
+
+      exon_geometry.faces.push( new THREE.Face3( 4, 5, 6 ) );
+      exon_geometry.faces.push( new THREE.Face3( 4, 6, 7 ) );
+
+      exon_geometry.faces.push( new THREE.Face3( 0, 1, 4 ) );
+      exon_geometry.faces.push( new THREE.Face3( 0, 4, 5 ) );
+
+      // exon_geometry.faces.push( new THREE.Face3( 0, 1, 6 ) );
+      // exon_geometry.faces.push( new THREE.Face3( 0, 1, 7 ) );
+
+      // exon_geometry.faces.push( new THREE.Face3( 4, 5, 6 ) );
+      // exon_geometry.faces.push( new THREE.Face3( 4, 6, 7 ) );
+
+      exon_geometry.computeBoundingSphere();
+      var exon_material  = new THREE.MeshBasicMaterial({color: 0x18CAE6, opacity: 0.7 , transparent: true, wireframe: false});
+      var exon_obj = new THREE.Mesh(exon_geometry, exon_material);
+      exon_obj.position.x = 0
+      exon_obj.position.y = 0
+      exon_obj.position.z = 0
+      // console.dir(exon_obj)
+      scene.add(exon_obj)
 
 
 
